@@ -1,0 +1,11 @@
+#homeProdImage {
+  max-height: "228px";
+  min-height: "228px";
+}
+
+@media (max-width: 296px) {
+  #prod_image {
+    width: 90%;
+    height: 100%;
+  }
+}

@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+#butt-effect {
+  color: whitesmoke;
+  border-color: rgb(80, 173, 226);
+}
+#butt-effect:focus {
+  box-shadow: none;
+}
+#butt-effect:active {
+  box-shadow: none;
+  background-color: rgb(80, 173, 226);
+}
+#butt-effect:hover {
+  background-color: rgb(80, 173, 226);
+}
+#search-box:focus {
+  box-shadow: none;
+  outline: none;
+}
+#login {
+  color: whitesmoke;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Bree Serif", serif;
+}
+#cart {
+  color: whitesmoke;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Bree Serif", serif;
+}
+.slider {
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  display: block;
+  width: 90px;
+  text-align: center;
+  border-radius: 50px;
+}
+.slider:hover {
+  background-color: rgb(80, 173, 226);
+}
+#login:hover {
+  color: whitesmoke;
+}
+#cart:hover {
+  color: whitesmoke;
+}
+.active-tab {
+  color: whitesmoke;
+  background-color: rgb(80, 173, 226);
+  border-radius: 50px;
+  display: block;
+  width: 90px;
+  text-align: center;
+}
+#nav-col::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin-left: -16px;
+  z-index: -1;
+  opacity: 0.4;
+}
+#nav-col {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  margin-left: -16px;
+}
+#logo {
+  border-radius: 40%;
+  height: 100%;
+  width: 50%;
+  margin-left: 1rem;
+}
+#div-logo {
+  width: 20%;
+}
+@media (max-width: 989px) {
+  #logo {
+    height: 30%;
+    width: 200%;
+  }
+}
+#root::before {
+  background-image: url("./back.jpg");
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  content: "";
+  z-index: -1;
+  opacity: 0.5;
+  background-repeat: repeat;
+  background-position: center center;
+}

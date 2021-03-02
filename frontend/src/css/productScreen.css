@@ -1,0 +1,46 @@
+@media (max-width: 4156px) {
+  #prod_image {
+    width: 100%;
+    height: 70%;
+  }
+}
+
+@media (max-width: 1851px) {
+  #prod_image {
+    width: 100%;
+    height: 60%;
+  }
+}
+
+@media (max-width: 1336px) {
+  #prod_image {
+    width: 100%;
+    height: 55%;
+  }
+}
+
+@media (max-width: 1059px) {
+  #prod_image {
+    width: 100%;
+    height: 60%;
+  }
+}
+@media (max-width: 981px) {
+  #prod_image {
+    width: 100%;
+    height: 55%;
+  }
+}
+
+@media (max-width: 863px) {
+  #prod_image {
+    width: 100%;
+    height: 50%;
+  }
+}
+@media (max-width: 768px) {
+  #prod_image {
+    width: 100%;
+    height: 100%;
+  }
+}

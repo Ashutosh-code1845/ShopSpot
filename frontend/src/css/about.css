@@ -1,0 +1,47 @@
+@media (max-width: 362px) {
+  #about {
+    min-height: 60vh;
+  }
+}
+
+@media (max-width: 237px) {
+  #about {
+    min-height: 80vh;
+  }
+}
+
+@media (max-width: 209px) {
+  #about {
+    min-height: 90vh;
+  }
+}
+
+@media (max-width: 1446px) {
+  #about {
+    min-height: 60vh;
+  }
+}
+
+@media (max-width: 833px) {
+  #about {
+    min-height: 70vh;
+  }
+}
+
+@media (max-width: 296px) {
+  #about {
+    min-height: 80vh;
+  }
+}
+
+@media (max-width: 254px) {
+  #about {
+    min-height: 90vh;
+  }
+}
+
+@media (max-width: 227px) {
+  #about {
+    min-height: 100vh;
+  }
+}

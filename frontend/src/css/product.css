@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#card-anim:hover {
+  box-shadow: 6px 6px 20px grey;
+}
+.rating span {
+  margin: 1rem 0;
+}
+.rating span {
+  margin: 0.1rem;
+}
+
+#card-anim {
+  width: 18rem;
+  height: 25rem;
+}
+
+@media (max-width: 296px) {
+  #card-anim {
+    width: 16rem;
+  }
+}
+
+@media (max-width: 269px) {
+  #card-anim {
+    width: 14rem;
+  }
+}

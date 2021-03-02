@@ -1,0 +1,6 @@
+#remover:focus {
+  box-shadow: none;
+}
+#remover:active {
+  box-shadow: none;
+}
